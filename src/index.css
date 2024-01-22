@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.nv li{
+    margin-left: 25px;
+    font-size: large;
+}
+.column{
+    display: flex;
+    margin:auto;
+
+}
+.column ul li:hover{
+    box-shadow: 0px 2px rgb(246, 100, 100);
+}
+.main-pizza{
+    display: flex;
+    padding: 30px 110px;
+    gap: 50px;
+    /* background-color: red; */
+}
+.main-block{
+    display: flex;
+    flex-direction: column;
+
+}
+.btn{
+    min-width:125px ;
+    font-size: 17px;
+    height: 33px;
+    background-color: red;
+    color: black;
+    border: 1px solid transparent;
+    border-radius:7px ;
+    transition: 0.2s background-color ease-in;
+
+}
+.btn:hover{
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        transition: 0.2s background-color ease-in;
+
+}
