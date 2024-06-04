@@ -12,4 +12,3 @@ Smooth navigation with React Router
 
 Frontend: React.js, Tailwind CSS
 Routing: React Router
-OTP Service: (Specify the OTP service/API used)
